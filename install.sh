@@ -11,7 +11,7 @@ apt install -y git zsh vim
 curl -fsSL https://raw.githubusercontent.com/wklken/vim-for-server/master/vimrc > ~/.vimrc
 
 git clone https://github.com/aleng-zhang/Termux-Onekey.git "$HOME/Termux-Onekey" --depth 1
-cp -R "$HOME/Termux-Onekey/.termux" "$HOME/.termux"
+cp -R "$HOME/Termux-Onekey/.termux/." "$HOME/.termux"
 rm -rf "$HOME/Termux-Onekey"
 
 git clone git://github.com/robbyrussell/oh-my-zsh.git "$HOME/.oh-my-zsh" --depth 1
